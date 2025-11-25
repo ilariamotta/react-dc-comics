@@ -1,0 +1,33 @@
+.bg-footer-top {
+    background-image: url("/src/assets/img/footer-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+.ul-link {
+    color: grey;
+    list-style: none;
+}
+
+.footer-sx {
+    display: flex;
+ 
+    flex-direction: column;
+
+}
+
+.col {
+    width: 30%;
+}
+
+.footer-col {
+    display: flex;
+    gap: 20px;
+}

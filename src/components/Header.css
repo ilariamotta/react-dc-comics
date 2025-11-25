@@ -14,7 +14,7 @@
 
 
 
-ul {
+.nav-link {
     text-transform: uppercase;
     list-style: none;
     gap: 10px;

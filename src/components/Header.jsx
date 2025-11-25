@@ -6,7 +6,7 @@ export default function Header() {
         <section className="bg-white">
         <header className="d-flex container justify-space-between">
             <Logo/>
-            <ul className="d-flex justify-space-between">
+            <ul className="d-flex justify-space-between nav-link">
                 <li><a href="">characters</a></li>
                 <li><a href="">comics</a></li>
                 <li><a href="">movies</a></li>

@@ -1,0 +1,22 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+
+
+ul {
+    text-transform: uppercase;
+    list-style: none;
+    gap: 10px;
+    font-size: 0.8rem;
+}

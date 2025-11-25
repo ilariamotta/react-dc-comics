@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Mainbottom from './components/Mainbottom'
 import Maintop from './components/Maintop'
 
 
@@ -11,6 +12,7 @@ function App() {
       <div className='container'>
         <Header />
         <Maintop />
+        <Mainbottom />
       </div>
 
     </>

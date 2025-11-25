@@ -3,7 +3,8 @@ import Logo from "./Logo.jsx"
 
 export default function Header() {
     return (
-        <header className="header d-flex justify-space-between">
+        <section className="bg-white">
+        <header className="d-flex container justify-space-between">
             <Logo/>
             <ul className="d-flex justify-space-between">
                 <li><a href="">characters</a></li>
@@ -17,7 +18,7 @@ export default function Header() {
                 <li><a href="">news</a></li>
                 <li><a href="">shop</a></li>
             </ul>
-
         </header>
+        </section>
     )
 }

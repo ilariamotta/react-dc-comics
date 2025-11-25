@@ -1,5 +1,38 @@
 .bg-blue {
 background-color: #147beb;
-height: 200px;
+height: 150px;
+padding: 40px 0;
 }
 
+col {
+    width: 30%;
+}
+
+.text-white {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.col img {
+    max-width: 50px;
+}
+
+.gap-15 {
+    gap: 10px;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.align-items {
+    align-items: center;
+}

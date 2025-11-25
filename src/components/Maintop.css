@@ -1,0 +1,13 @@
+.background-color {
+background-color: black;
+height: 200px;
+}
+
+.placeholder {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+

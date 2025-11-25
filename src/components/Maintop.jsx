@@ -1,6 +1,9 @@
+import "./Maintop.css"
+
 export default function Maintop () {
     return (
-        <main><h2>Content goes here</h2>
+        <main className="background-color d-flex">
+            <h2 className="placeholder">Content goes here</h2>
         </main>
     )
 }

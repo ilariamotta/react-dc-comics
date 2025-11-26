@@ -13,7 +13,10 @@ export default function Maintop() {
                         <div className="col-main" key={curProduct.id}>
                             <img src={curProduct.thumb} alt={curProduct.title} />
                             <p className="comics-title">{curProduct.title}</p></div>)}
+                
+                <div className="button-wrapper"><button className="load-button">LOAD MORE</button></div>
                 </div>
+                
             </main>
         </section>
     )

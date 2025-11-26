@@ -5,7 +5,7 @@ export default function Footerbottom(){
 <div className="bg-grey">
 <div className="container d-flex justify-space-between">
 <div className="footer-bottom"><a href="" className="sign-up">SIGN-UP NOW!</a></div>
-<div className="footer-bottom"></div>
+<div className="footer-bottom"><p>FOLLOW US</p><a href=""><img src="../assets/img/facebook.png" alt="" /></a></div>
 
 
 

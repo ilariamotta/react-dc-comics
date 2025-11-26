@@ -8,12 +8,15 @@
 .footer-title {
     text-transform: uppercase;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 10px 0;
 }
 
 .ul-link {
     color: grey;
     list-style: none;
+    font-size: 0.8rem;
 }
 
 .footer-sx {
@@ -23,11 +26,8 @@
 
 }
 
-.col {
-    width: 30%;
-}
-
 .footer-col {
     display: flex;
     gap: 20px;
 }
+

@@ -1,17 +1,8 @@
 .bg-white {
     background-color: rgb(255, 255, 255);
     height: 100px;
+    padding: 10px 0;
 }
-
-.d-flex {
-    display: flex;
-    align-items: center;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-
 
 
 .nav-link {
@@ -19,4 +10,6 @@
     list-style: none;
     gap: 10px;
     font-size: 0.8rem;
+    font-weight: 700;
+    color: #3f3f3f;
 }

@@ -1,15 +1,35 @@
 .bg-white {
     background-color: rgb(255, 255, 255);
-    height: 100px;
     padding: 10px 0;
 }
 
 
 .nav-link {
+    display: inline-block;
     text-transform: uppercase;
     list-style: none;
     gap: 10px;
     font-size: 0.8rem;
     font-weight: 700;
     color: #3f3f3f;
+    position: relative;
+
+}
+
+a.active {
+    color: #147beb;
+
+}
+
+
+
+a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    height: 4px;
+    width: 100%;
+    background-color: #0282f9;
+
 }

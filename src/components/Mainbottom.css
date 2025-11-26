@@ -4,9 +4,6 @@ height: 150px;
 padding: 40px 0;
 }
 
-col {
-    width: 30%;
-}
 
 .text-white {
     color: white;
@@ -37,3 +34,4 @@ col {
 .align-items {
     align-items: center;
 }
+

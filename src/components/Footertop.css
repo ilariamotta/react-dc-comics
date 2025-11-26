@@ -1,8 +1,8 @@
 .bg-footer-top {
-    background-image: url("/src/assets/img/footer-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+    background-image: url(/src/assets/img/dc-logo-bg.png), url("/src/assets/img/footer-bg.jpg");
+    background-size: auto, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center;
 }
 
 .footer-title {
@@ -29,5 +29,6 @@
 .footer-col {
     display: flex;
     gap: 20px;
+    padding: 20px
 }
 

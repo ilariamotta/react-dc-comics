@@ -1,9 +1,10 @@
 import './App.css'
 import Header from './components/Header'
+import Hero from './components/hero'
 import Mainbottom from './components/Mainbottom'
 import Maintop from './components/Maintop'
 import Footertop from './components/Footertop'
-import Hero from './components/hero'
+import Footerbottom from './components/Footerbottom'
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Maintop />
         <Mainbottom />
         <Footertop />
-
+        <Footerbottom />
 
     </>
   )

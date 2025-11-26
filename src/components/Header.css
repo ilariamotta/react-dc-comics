@@ -4,6 +4,14 @@
 }
 
 
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+}
+
 .nav-link {
     display: inline-block;
     text-transform: uppercase;
@@ -13,7 +21,6 @@
     font-weight: 700;
     color: #3f3f3f;
     position: relative;
-
 }
 
 a.active {

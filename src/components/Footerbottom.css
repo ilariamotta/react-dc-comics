@@ -1,12 +1,8 @@
 .bg-grey {
     background-color: rgb(44, 44, 44);
-    height: 200px;
     padding:  20px 0;
 }
 
-.footer-bottom {
-    width: 50%;
-}
 
 .sign-up {
     border: 2px solid #147beb;
